@@ -42,6 +42,8 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+ 
+
   - block: experience
     content:
       title: Experience
@@ -110,7 +112,7 @@ sections:
           date_start: '2019-06-17'
           date_end: '2019-09-03'
           description: |2-
-            Worked on the backend services of IBM Cloud. Developed 
+            Worked on the backend services of IBM Cloud. 
       
             Created IAR Manual Analysis, an AWS Step Functions workflow that uses AWS Lambda to aggregate datapoints from various data sources (S3, DynamoDB) for SageMaker ML model training, and handles over 16,000 requests per summary stage.
 
@@ -254,19 +256,22 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+#  - block: markdown
+#    content:
+#      title: Gallery
+#      subtitle: ''
+#      text: |-
+#        {{< gallery album="demo" >}}
+#    design:
+#      columns: '1'
 
   - block: skills
     content:
       title: Skills
-      text: ''
+      text: |-
+        <div style="text-align: center;">
+          <img src="images/Me.svg" alt="My SVG" />   
+        </div>
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:

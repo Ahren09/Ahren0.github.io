@@ -3,7 +3,7 @@
 title: Yiqiao Jin
 
 # Name pronunciation (optional)
-name_pronunciation: Yiqiao Jin
+# name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Yiqiao
