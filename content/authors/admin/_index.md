@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Yiqiao Jin
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yiqiao Jin
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yiqiao
+last_name: Jin
 
 # Status emoji
 status:
@@ -17,54 +17,60 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: CS PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Georgia Institute of Technology
+    url: https://www.gatech.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include large language models (LLMs) and multimodal learning, especially the evaluation, application, and fine-tuning of LLMs.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large Language Models (LLM)
+  - Multimodal Learning
+  - Social Computing
+  - Data Mining
+  - Graph Neural Networks
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Computer Science
+      institution: Georgia Institute of Technology (GaTech)
+      year: 2022-2027
+    - course: B.S in Computer Science
+      institution: University of California, Los Angeles (UCLA)
+      year: 2018-2021
+
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: Large Language Models (LLMs)
         description: ''
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Multimodal Learning
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-line
         icon_pack: fas
-      - name: SQL
+      - name: Graph Neural Networks
         description: ''
-        percent: 40
+        percent: 85
         icon: database
+        icon_pack: fas        
+
+      - name: Social Computing
+        description: ''
+        percent: 90
+        icon: at
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
@@ -75,11 +81,11 @@ skills:
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: Rabbit
         description: ''
         percent: 100
-        icon: cat
-        icon_pack: fas
+        icon: bootstrap bookmarks
+        icon_pack: fab
       - name: Photography
         description: ''
         percent: 80
@@ -93,22 +99,22 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'yjin328@gatech.edu'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/AhrenJin
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=s_AZwbYAAAAJJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/Ahren09
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/ahren-jin/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +126,11 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Yiqiao Jin (靳轶乔, Ahren) is a CS Ph.D. student at Georgia Institute of Technology, advised by Professor [Srijan Kumar](https://cc.gatech.edu/~srijan/). 
+
+Previously, he was working as a research intern at [Microsoft Research Asia (MSRA)]('https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/groups/'), Social Computing Group, directed by [Dr. Xing Xie](https://scholar.google.com/citations?hl=zh-CN&user=5EQfAFIAAAAJ). He was mentored by [Dr. Xiting Wang](https://scholar.google.com/citations?hl=zh-CN&user=urC8meQAAAAJ) and [Dr. Jindong Wang](https://jd92.wang/), and lead research projects on Large Language Models, Explainable NLP, Computational Social Science, and Recommender Systems.
+
+Yiqiao also worked as an undergraduate research assistant at Scalable Analytics Institute ([ScAi](https://scai.cs.ucla.edu/)) on graph neural networks and recommender systems under the mentorship of [Prof. Yizhou Sun](http://web.cs.ucla.edu/~yzsun/) and [Prof. Wei Wang](http://web.cs.ucla.edu/~weiwang/)
+
 {style="text-align: justify;"}

@@ -1,44 +1,45 @@
 ---
-title: Example Talk
+title: Large Multimodal Models and Their Applications
 
-event: Hugo Blox Builder Conference
+event: Large Multimodal Models and Their Applications
 event_url: https://example.org
 
-location: Hugo Blox Builder HQ
+location: Microsoft Research Asia
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: Building 2, No. 5 Dan Ling Street
+  city: Beijing
+  region: Beijing
+  postcode: '100080'
+  country: China
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Large Multimodal Models and Their Applications.
+abstract: 'In this talk, I introduced recent progresses in large multimodal models, such as LLaVA, BLIP2, InstructBLIP, and LLaMA-Adapter.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-12-12T14:00:00Z'
+date_end: '2023-12-12T15:30:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-12-12T14:00:00Z'
 
-authors: []
-tags: []
+authors: ['Yiqiao Jin']
+tags: ['Large Language Models', 'Multimodal Learning', 'Social Computing']
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'images/LMM_Talk_MSRA.png'
   focal_point: Right
 
 links:
   - icon: twitter
     icon_pack: fab
     name: Follow
-    url: https://twitter.com/georgecushen
+    url: https://twitter.com/AhrenJin
 url_code: ''
 url_pdf: ''
 url_slides: ''

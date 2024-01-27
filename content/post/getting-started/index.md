@@ -30,15 +30,14 @@ image:
 
 authors:
   - admin
-  - 吳恩達
 
 tags:
-  - Academic
-  - 开源
+  - Large Language Models
+  - Social Computing
+  - Graph Neural Networks
 
 categories:
-  - Demo
-  - 教程
+  - Natural Language Processing
 ---
 
 ```python
