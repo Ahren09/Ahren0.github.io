@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Better to Ask in English: Cross-Lingual Evaluation of Large Language Models for Healthcare Queries'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

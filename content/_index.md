@@ -269,9 +269,6 @@ sections:
     content:
       title: Skills
       text: |-
-        <div style="text-align: center;">
-          <img src="images/Me.svg" alt="My SVG" />   
-        </div>
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
@@ -283,7 +280,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        You can reach me in Atlanta / Beijing.
+        You can reach me in Atlanta, GA / Beijing, China.
       # Contact (add or remove contact options as necessary)
       email: yjin328[AT]gatech.edu
       phone: (+1)470-962-0241
@@ -325,6 +322,16 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
+    design:
+      columns: '2'
+
+  - block: markdown
+    id: stats
+    content:
+      title: Stats
+      subtitle: Visits around the world
+      text: |- 
+        <div style="width: 50%;"><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=z1NGKLar1eRXjmcnZzuNsfl3inw_OhaRLdoyUTZMCyg"></script></div>
     design:
       columns: '2'
 ---

@@ -61,7 +61,7 @@
     {
         "title": "Reinforcement Subgraph Reasoning for Fake News Detection",
         "authors": ["Ruichao Yang", "Xiting Wang", "Yiqiao Jin", "Chaozhuo Li", "Jianxun Lian", "Xing Xie"],
-        "journal": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "venue": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
         "year": "2022",
         "venueShort": "KDD'22",
         "paperLink": "https://dl.acm.org/doi/10.1145/3534678.3539277",
@@ -81,23 +81,27 @@
   {
         "title": "Large Language Models Can Be Good Privacy Protection Learners",
         "authors": ["Yijia Xiao", "Yiqiao Jin", "Yushi Bai", "Yue Wu", "Xianjun Yang", "Xiao Luo", "Wenchao Yu", "Xujiang Zhao", "Yanchi Liu", "Haifeng Chen", "Wei Wang", "Wei Cheng"],
-        "venue": "arXiv",
-         "arXiv": "https://arxiv.org/abs/2310.02469",
+        "venue": "arXiv Preprint",
+        "paperLink": "https://arxiv.org/abs/2310.02469",
         "year": "2024",
         "url": "https://arxiv.org/abs/2310.02469"
     },
     {
         "title": "Towards Fair Graph Anomaly Detection: Problem, New Datasets, and Evaluation",
         "authors": ["Neng Kai Nigel Neo", "Yeon-Chang Lee", "Yiqiao Jin", "Sang-Wook Kim", "Srijan Kumar"],
-        "venue": "Under Review",
-        "year": "2024"
+        "venue": "arXiv Preprint",
+        "year": "2024",
+        "paperLink": "https://arxiv.org/abs/2402.15988",
+        "url": "https://arxiv.org/abs/2402.15988"
+
     },
     {
         "title": "CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents",
         "authors": ["Qinlin Zhao", "Jindong Wang", "Yixuan Zhang", "Yiqiao Jin", "Kaijie Zhu", "Hao Chen", "Xing Xie"],
-        "venue": "Under Review",
+        "venue": "arXiv Preprint",
         "year": "2024",
-        "arXiv": "https://arxiv.org/abs/2310.17512"
+        "paperLink": "https://arxiv.org/abs/2310.17512",
+        "url": "https://arxiv.org/abs/2310.17512"
     }
 
 ]

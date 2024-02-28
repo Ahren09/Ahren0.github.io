@@ -22,7 +22,7 @@ fetch('/publications.json')
       let links = [arxivLink, paperLink, websiteLink, codeLink].filter(link => link !== '').join(' ');
 
 
-      pubElement.innerHTML = `<h3>${pub.title}</h3><p>${authors}</p><p>${venue} ${presentationTypeHtml}</p><p>${links}</p>`;
+      pubElement.innerHTML = `<h4>${pub.title}</h4><p>${authors}</p><p>${venue} ${presentationTypeHtml}</p><p>${links}</p>`;
       // Add more details as needed
       publicationsContainer.appendChild(pubElement);
     });
