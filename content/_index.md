@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2024-04-05
 type: landing
 
 sections:
@@ -42,7 +42,18 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
- 
+
+  - block: markdown
+    id: news
+    content:
+      title: What's new?
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: |2-
+        {{< displayNews "displayNews.html" >}}
+    design:
+      columns: '2'
+      view: compact
 
   - block: experience
     content:
@@ -56,6 +67,17 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Intern
+          company: Adobe Inc.
+          company_url: 'https://www.adobe.com/'
+          company_logo: logo_adobe
+          location: San Jose, CA
+          date_start: '2024-05-06'
+          date_end: '2024-08-09'
+          description: |2-
+            Research Topics: Code Generation and Video Understanding
+
+            
         - title: Graduate Research Assistant
           company: Georgia Institute of Technology
           company_url: 'https://www.gatech.edu/'
@@ -64,7 +86,7 @@ sections:
           date_start: '2022-08-22'
           date_end: ''
           description: |2-
-              Research Topics: Large Language Models (WebConf’24), Fairness and Equity (WebConf’24, In preparation for SIGIR'24), Social Network Analysis (KDD’23), Dynamic Graph Neural Networks (KDD’23), Multimodal Models (In preparation).
+              Research Topics: Large Language Models (WebConf’24, COLM'24), Robustness (COLM'24), Fairness and Equity (WebConf’24), Social Network Analysis (KDD’23), Dynamic Graph Neural Networks (KDD’23), Multimodal Models (COLM'24).
 
                Advisor: Dr. Srijan Kumar
                
@@ -215,6 +237,7 @@ sections:
 #      view: showcase
 #      # For Showcase view, flip alternate rows?
 #      flip_alt_rows: false
+  
   - block: collection
     id: featured
     content:
