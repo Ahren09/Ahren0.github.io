@@ -1,10 +1,14 @@
 [
     {
         "date": "2024-04-01",
-        "text": "Our [TheWebConf2024 Project](https://arxiv.org/abs/2310.13132) is featured at [Scientific American]() and [The World]()"
+        "text": "Our <a href='https://arxiv.org/abs/2310.13132'>WebConf2024 Project</a> on Cross-Lingual Evaluation of LLMs is featured at <a href='https://www.scientificamerican.com/article/chatbots-medical-questions-language/'>Scientific American</a> and <a href='https://theworld.org/media/2024-04-02/chatbots-making-mistakes-when-translating-medical-advice-some-languages'>The World</a>"
+    },
+    {
+        "date": "2024-02-29",
+        "text": "I will join Adobe as a Research Intern in May 2024. See you in San Jose, CA!"
     },
     {
         "date": "2024-01-23",
-        "text": "Our [paper](https://arxiv.org/abs/2310.13132) is accepted at TheWebConf2024"
+        "text": "<a href='https://arxiv.org/abs/2310.13132'>One paper</a> accepted at The Web Conference 2024"
     }
 ]

@@ -96,6 +96,25 @@
 
     },
     {
+        "title": "LLaVAGuard: Multimodal Safety Guardrails for Jailbreak Attacks on Multimodal Large Language Models.",
+        "authors": ["Sejoon Oh", "Yiqiao Jin", "Megha Sharma,", "Donghyun Kim", "Gaurav Verma", "Srijan Kumar"],
+        "venue": "arXiv Preprint",
+        "year": "2024",
+        "paperLink": "",
+        "url": ""
+    },
+
+    {
+        "title": "Investigating the Effect of Automated vs. Human-Verified Adversarial Samples on Improving the Robustness of LLMs.",
+        "authors": ["Varun Vankineni", "Gaurav Verma", "Sai Prasath Suresh", "Yiqiao Jin", "Xiaojing Wang", "Rajarajeswari Balasubramaniyan", "Srijan Kumar"],
+        "venue": "arXiv Preprint",
+        "year": "2024",
+        "paperLink": "",
+        "url": ""
+    },
+
+
+    {
         "title": "CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents",
         "authors": ["Qinlin Zhao", "Jindong Wang", "Yixuan Zhang", "Yiqiao Jin", "Kaijie Zhu", "Hao Chen", "Xing Xie"],
         "venue": "arXiv Preprint",

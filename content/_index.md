@@ -42,8 +42,8 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
- 
-  - block: collection
+
+  - block: markdown
     id: news
     content:
       title: What's new?
@@ -51,6 +51,9 @@ sections:
       username: admin
       text: |2-
         {{< displayNews "displayNews.html" >}}
+    design:
+      columns: '2'
+      view: compact
 
   - block: experience
     content:
@@ -69,10 +72,10 @@ sections:
           company_url: 'https://www.adobe.com/'
           company_logo: logo_adobe
           location: San Jose, CA
-          date_start: '2024-03-06'
-          date_end: '2024-03-09'
+          date_start: '2024-05-06'
+          date_end: '2024-08-09'
           description: |2-
-            Research Topics
+            Research Topics: Code Generation and Video Understanding
 
             
         - title: Graduate Research Assistant
@@ -234,6 +237,7 @@ sections:
 #      view: showcase
 #      # For Showcase view, flip alternate rows?
 #      flip_alt_rows: false
+  
   - block: collection
     id: featured
     content:
