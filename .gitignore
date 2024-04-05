@@ -10,3 +10,8 @@ go.sum
 .hugo_build.lock
 .gitignore
 */.gitignore
+
+*.DS_Store*
+.DS_Store
+*/.DS_Store
+assets/media/.DS_Store
