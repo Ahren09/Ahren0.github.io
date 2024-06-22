@@ -75,7 +75,7 @@ sections:
           date_start: '2024-05-06'
           date_end: '2024-08-09'
           description: |2-
-            Research Topics: Code Generation and Video Understanding
+            Research Topics: Tutorial Video Understanding with Multimodal LLMs
 
             
         - title: Graduate Research Assistant
