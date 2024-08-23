@@ -2,11 +2,29 @@
     {
         "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
         "authors": ["Yiqiao Jin*", "Qinlin Zhao*", "Yiyang Wang", "Hao Chen", "Kaijie Zhu", "Yijia Xiao", "Jindong Wang"],
-        "venue": "arXiv Preprint",
+        "venue": "Proceedings of EMNLP 2024",
+        "venueShort": "EMNLP'24",
         "year": "2024",
         "arXiv": "https://arxiv.org/abs/2406.12708",
-        "website": "",
-        "GitHub": ""
+        "website": "https://agentreview.github.io/",
+        "GitHub": "https://github.com/Ahren09/AgentReview"
+    },
+    {
+        "title": "Large Language Models Can Be Good Privacy Protection Learners",
+        "authors": ["Yijia Xiao", "Yiqiao Jin", "Yushi Bai", "Yue Wu", "Xianjun Yang", "Xiao Luo", "Wenchao Yu", "Xujiang Zhao", "Yanchi Liu", "Haifeng Chen", "Wei Wang", "Wei Cheng"],
+        "venue": "Proceedings of EMNLP 2024",
+        "venueShort": "EMNLP'24",
+        "paperLink": "https://arxiv.org/abs/2310.02469",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2310.02469"
+    },
+    {
+        "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction and Structure Understanding",
+        "authors": ["Yijia Xiao", "Edward Sun", "Yiqiao Jin", "Qifan Wang", "Wei Wang"],
+        "venue": "arXiv Preprint",
+        "paperLink": "https://arxiv.org/abs/2408.11363",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2408.11363"
     },
     {
         "title": "MM-Soc: Benchmarking Multimodal Large Language Models in Social Media Platforms",
@@ -131,23 +149,26 @@
         "url": "https://arxiv.org/abs/2306.09712",
         "acceptanceRate": 27.9
     },
-  {
-        "title": "Large Language Models Can Be Good Privacy Protection Learners",
-        "authors": ["Yijia Xiao", "Yiqiao Jin", "Yushi Bai", "Yue Wu", "Xianjun Yang", "Xiao Luo", "Wenchao Yu", "Xujiang Zhao", "Yanchi Liu", "Haifeng Chen", "Wei Wang", "Wei Cheng"],
-        "venue": "arXiv Preprint",
-        "paperLink": "https://arxiv.org/abs/2310.02469",
-        "year": "2024",
-        "url": "https://arxiv.org/abs/2310.02469"
-    },
     {
         "title": "Towards Fair Graph Anomaly Detection: Problem, New Datasets, and Evaluation",
         "authors": ["Neng Kai Nigel Neo", "Yeon-Chang Lee", "Yiqiao Jin", "Sang-Wook Kim", "Srijan Kumar"],
-        "venue": "arXiv Preprint",
+        "venue": "CIKM'24",
         "year": "2024",
         "paperLink": "https://arxiv.org/abs/2402.15988",
         "url": "https://arxiv.org/abs/2402.15988"
 
     },
+    {
+        "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction and Structure Understanding",
+        "authors": ["Yijia Xiao", "Edward Sun", "Yiqiao Jin", "Qifan Wang", "Wei Wang"],
+        "venue": "arXiv Preprint",
+        "year": "2024",
+        "arXiv": "https://arxiv.org/abs/2408.11363",
+        "website": "",
+        "GitHub": ""
+    },
+
+    
     {
         "title": "LLaVAGuard: Multimodal Safety Guardrails for Jailbreak Attacks on Multimodal Large Language Models.",
         "authors": ["Sejoon Oh", "Yiqiao Jin", "Megha Sharma,", "Donghyun Kim", "Gaurav Verma", "Srijan Kumar"],
@@ -165,6 +186,4 @@
         "paperLink": "",
         "url": ""
     }
-    
-
 ]

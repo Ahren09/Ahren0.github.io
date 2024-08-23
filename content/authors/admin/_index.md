@@ -31,7 +31,7 @@ bio: My research interests include large language models (LLMs) and multimodal l
 interests:
   - Large Language Models (LLM)
   - Multimodal Learning
-  - Social Computing
+  - Human-Centric AI
   - Data Mining
   - Graph Neural Networks
 

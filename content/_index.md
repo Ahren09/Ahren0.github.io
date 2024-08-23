@@ -56,6 +56,7 @@ sections:
       view: compact
 
   - block: experience
+    id: exp
     content:
       title: Experience
       # Date format for experience
@@ -67,6 +68,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Communication Chair
+          company: Graduate Student Association, Georgia Tech School of Computer Science (SCSGSA)
+          company_url: 'https://scsgsa.cc.gatech.edu/'
+          company_logo: logo_georgia_tech
+          location: Atlanta, GA
+          date_start: '2024-08-12'
+          date_end: ''
+          description: |2-
+            - Co-organize the College of Computing (CoC) Graduate Welcome Event with over 1,000 attendees, including new students, faculty, and alumni.
+            - Lead the design and maintenance of the SCSGSA website.
+            - Promote SCSGSA events, including workshops, networking sessions, and professional development programs.
+
         - title: Research Intern
           company: Adobe Inc.
           company_url: 'https://www.adobe.com/'
@@ -75,7 +88,7 @@ sections:
           date_start: '2024-05-06'
           date_end: '2024-08-09'
           description: |2-
-            Research Topics: Tutorial Video Understanding with Multimodal LLMs
+            Research Topics: Multimodal Large Language Models (MLLMs) Fine-tuning, Web UI and Video Tutorial Understanding.
 
             
         - title: Graduate Research Assistant
@@ -86,9 +99,9 @@ sections:
           date_start: '2022-08-22'
           date_end: ''
           description: |2-
-              Research Topics: Large Language Models (WebConf’24, COLM'24), Robustness (COLM'24), Fairness and Equity (WebConf’24), Social Network Analysis (KDD’23), Dynamic Graph Neural Networks (KDD’23), Multimodal Models (COLM'24).
+              Research Topics: Large Language Models (WebConf'24, ACL'24), LLM Safety (In preparation for NAACL'25), Multimodal Models (ACL'24), Recommender Systems and Dynamic Graph Mining (KDD'23), Social Network Analysis (CIKM'24, KDD'23), Fair Graph Mining (CIKM'24).
 
-               Advisor: Dr. Srijan Kumar
+              Advisor: Dr. Srijan Kumar
                
         - title: Research Intern
           company: Microsoft Research Asia
@@ -98,11 +111,12 @@ sections:
           date_start: '2020-12-22'
           date_end: '2022-07-22'
           description: |2-
-            Research Topics: Large Language Models and Agents (ICML'24), Language Models (ICML'23, AAAI'23), Misinformation Detection (KDD'22, AAAI'22), Learning in Low-Resource Scenarios (AAAI'23), Explainable AI (AAAI'22).
-      
+            Research Topics: Large Language Models (EMNLP'24, ICML'24, ICML'23, AAAI'23), LLM Agents (EMNLP'24, ICML'24), Scientometric Analysis (In preparation for NAACL'25), Computational Social Science, Misinformation Detection (KDD'22, AAAI'22), Few-shot Learning (ACL'24, AAAI'23), Explainable AI (AAAI'22).
+
             Advisors: Dr. Xiting Wang, Dr. Jindong Wang, and Dr. Xing Xie. 
 
-        - title: Research Assistant
+
+        - title: Undergraduate Research Assistant
           company: UCLA Scalable Analytics Institute (ScAi)
           company_url: 'https://ucla-dm.github.io/DM_website/'
           company_logo: logo_ucla
@@ -110,7 +124,8 @@ sections:
           date_start: '2021-06-25'
           date_end: '2022-06-25'
           description: |2- 
-            Research Topics: Graph Neural Networks (WWW'23), Graph-Based Recommender Systems (WWW'23), Social Computing (AAAI'23, AAAI'22).
+            Research Topics: Large Language Models (EMNLP'24), Graph Neural Networks and Data Mining (WWW'23), LLM Fine-tuning (Under Review at KDD'25), Recommender Systems (WWW'23).
+            
             Advisors: Dr. Yizhou Sun, Dr. Wei Wang
             
 
@@ -122,9 +137,11 @@ sections:
           date_start: '2020-06-15'
           date_end: '2020-09-04'
           description: |2-
-            Worked on the backend services of Amazon FBA Team
-      
-            Created IAR Manual Analysis, an AWS Step Functions workflow that uses AWS Lambda to aggregate datapoints from various data sources (S3, DynamoDB) for SageMaker ML model training, and handles $\ge$ 16,000 requests per summary stage.   
+            - Worked in Fulfillment By Amazon (FBA), IAR team
+            - Designed and implemented IAR Manual Analysis, a scalable and efficient workflow using AWS Step Functions and AWS Lambda. This service automates the aggregation of data points from multiple sources like Amazon S3 and DynamoDB for SageMaker ML model training, handling over 16,000 requests per summary stage;
+            - Automated the deployment of the workflow across all AWS Realms (EU/FE/NA) through CloudFormation;
+            - Establish DataCraft pipeline to enable automatic data ingestion from DynamoDB into the Andes dataset catalog, promoting broader internal adoption of these datasets for cross-functional teams and enhancing data accessibility;
+            - Perform ablation analysis on the inventory reconciliation model, identifying key performance bottlenecks and optimizing model performance  
             
         - title: Software Engineer Intern
           company: IBM
@@ -134,9 +151,9 @@ sections:
           date_start: '2019-06-17'
           date_end: '2019-09-03'
           description: |2-
-            Worked on the backend services of IBM Cloud. 
-      
-            Created IAR Manual Analysis, an AWS Step Functions workflow that uses AWS Lambda to aggregate datapoints from various data sources (S3, DynamoDB) for SageMaker ML model training, and handles over 16,000 requests per summary stage.
+            - Worked on the backend services of IBM Cloud. 
+            - Developed Compass DataRouter, a routing service for Compass project based on Golang and MongoDB, reducing memory usage and accelerating data retrieval;
+            - Enhanced the monitoring dashboard for Compass towards a more intuitive and responsive user interface with React.js.
 
 
     design:
@@ -274,19 +291,6 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
-#  - block: markdown
-#    content:
-#      title: Gallery
-#      subtitle: ''
-#      text: |-
-#        {{< gallery album="demo" >}}
-#    design:
-#      columns: '1'
 
   - block: skills
     content:
@@ -303,7 +307,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        You can reach me in Atlanta, GA / Beijing, China.
+        Atlanta, GA / Beijing, China.
       # Contact (add or remove contact options as necessary)
       email: yjin328[AT]gatech.edu
       phone: (+1)470-962-0241
@@ -317,7 +321,7 @@ sections:
         country_code: US
       directions: CODA 13th Floor
       office_hours:
-        - 'Monday - Sunday 9:00 to 18:00'
+        - 'Monday - Sunday 9:00 to 20:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '33.7753'
